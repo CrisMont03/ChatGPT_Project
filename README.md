@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# ChatGPT Clone con React Native y Gemini API
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este proyecto es una implementación de un asistente conversacional similar a ChatGPT, desarrollado con **React Native** y utilizando la **API de Gemini** como motor de inteligencia artificial. Además, **Firebase** se emplea como base de datos para gestionar la autenticación de usuarios y almacenar el historial de conversaciones.
 
-## Get started
+## Características
 
-1. Install dependencies
+- **Autenticación de usuarios**: Registro e inicio de sesión con Firebase Authentication.
+- **Gestión de sesiones**: Posibilidad de cerrar sesión en cualquier momento.
+- **Creación de nuevos chats**: Los usuarios pueden iniciar conversaciones nuevas con la IA.
+- **Historial de chats**: Acceso a conversaciones previas guardadas en Firebase.
+- **Continuación de chats anteriores**: Permite seguir interactuando en un chat ya existente.
 
-   ```bash
-   npm install
-   ```
+## Tecnologías utilizadas
 
-2. Start the app
+- **React Native**: Framework para el desarrollo de aplicaciones móviles.
+- **Gemini API**: Motor de IA utilizado para la generación de respuestas conversacionales.
+- **Firebase**:
+  - **Firebase Authentication**: Manejo de registro e inicio de sesión.
+  - **Firestore**: Base de datos para almacenar y recuperar los chats de los usuarios.
+- **Expo**: Para facilitar el desarrollo y la compilación en entornos móviles.
 
-   ```bash
-    npx expo start
-   ```
+## Uso
+1. **Registrarse** o **iniciar sesión** en la aplicación.
+2. Crear un nuevo chat o seleccionar uno del historial.
+3. Escribir mensajes y recibir respuestas de la IA basada en Gemini.
+4. Cerrar sesión cuando se desee.
 
-In the output, you'll find options to open the app in a
+## Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
