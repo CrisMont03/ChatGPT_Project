@@ -25,6 +25,3 @@ Este proyecto es una implementación de un asistente conversacional similar a Ch
 3. Escribir mensajes y recibir respuestas de la IA basada en Gemini.
 4. Cerrar sesión cuando se desee.
 
-## Licencia
-Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
